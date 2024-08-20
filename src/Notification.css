@@ -1,0 +1,50 @@
+.notification {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    background: red;
+    color: #fff;
+    padding: 15px 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+    display: flex;
+    align-items: center;
+    z-index: 1000;
+    max-width: 350px;
+    font-size: 16px;
+    line-height: 1.5;
+    opacity: 0;
+    transform: translateY(-20px);
+    transition: opacity 0.3s ease, transform 0.3s ease;
+  }
+  
+  .notification.show {
+    opacity: 1;
+    transform: translateY(0);
+  }
+  
+  .icon {
+    width: 24px;
+    height: 24px;
+    color: #fff; /* Set the icon color to match the notification text color */
+    margin-right: 15px; /* Space between icon and message */
+  }
+  
+  .close-button {
+    background: none;
+    border: none;
+    color: #fff;
+    font-size: 20px;
+    margin-left: 15px;
+    cursor: pointer;
+    transition: color 0.3s ease;
+  }
+  
+  .close-button:hover {
+    color: #ffe600;
+  }
+  
+  .notification span {
+    flex: 1;
+  }
+  

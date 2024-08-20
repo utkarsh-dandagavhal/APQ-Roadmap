@@ -1,0 +1,104 @@
+body {
+  background: linear-gradient(to bottom right, #a8e0a1, #4cc9f0, #2e8b57, #1f5f6f, #003d34);
+}
+
+.assessment-container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  background: linear-gradient(to bottom right, #ffffff, #e8f5e9);
+  border-radius: 12px;
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.2);
+}
+
+
+h1 {
+  text-align: center;
+  color: #004d40; /* Dark teal for better readability */
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+.question-block {
+  background: #ffffff; /* White background for question blocks */
+  border: 1px solid #ddd; /* Light grey border */
+  border-radius: 8px;
+  margin-bottom: 20px;
+  padding: 20px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.question-block h2 {
+  font-size: 1.6rem;
+  color: #333; /* Dark grey for question text */
+  margin-bottom: 15px;
+}
+
+.options {
+  display: flex;
+  flex-direction: column;
+}
+
+.option-label {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+  padding: 10px;
+  background: #e3f2fd; /* Very light blue background */
+  border: 1px solid #b3e5fc; /* Light blue border */
+  border-radius: 5px;
+  transition: background-color 0.2s, border-color 0.2s;
+}
+
+.option-label:hover {
+  background: #bbdefb; /* Slightly darker blue on hover */
+  border-color: #90caf9; /* Slightly darker blue border on hover */
+}
+
+input[type="checkbox"] {
+  margin-right: 10px;
+  accent-color: #007bff; /* Custom color for the checkbox */
+}
+
+.submit-button {
+  align-self: center; /* Centers the button within its container */
+  padding: 12px 24px; /* Adjusted padding for a balanced look */
+  background: linear-gradient(to bottom right, #000000, #434343); /* Gradient effect for a sleek look */
+  color: #ffffff;
+  border: none;
+  border-radius: 5px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.2s, box-shadow 0.2s;
+  text-align: center; /* Centers the text inside the button */
+  display: inline-flex; /* Flexbox layout to center text */
+  align-items: center; /* Vertically centers text */
+  justify-content: center; /* Horizontally centers text */
+  max-width: 100%; /* Ensures the button adapts to the container width */
+  width: auto; /* Allows the button to expand based on its content */
+}
+
+.submit-button:hover {
+  background-color: #0056b3;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+@media (max-width: 768px) {
+  .assessment-container {
+    padding: 15px;
+  }
+
+  .question-block {
+    padding: 15px;
+  }
+
+  .submit-button {
+    padding: 10px 20px;
+    font-size: 0.9rem;
+  }
+}

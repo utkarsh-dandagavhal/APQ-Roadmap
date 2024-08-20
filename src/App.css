@@ -1,0 +1,36 @@
+.App {
+  font-family: Arial, sans-serif;
+  text-align: center;
+}
+
+.question-form, .results-page {
+  margin: 20px;
+}
+
+.question, .result {
+  margin-bottom: 20px;
+}
+
+label {
+  display: block;
+  margin: 5px 0;
+}
+
+button {
+  padding: 10px 20px;
+  font-size: 16px;
+}
+
+.option-result {
+  margin-top: 10px;
+  text-align: left;
+}
+
+h4 {
+  margin: 0;
+  font-size: 18px;
+}
+
+p {
+  margin: 5px 0;
+}
