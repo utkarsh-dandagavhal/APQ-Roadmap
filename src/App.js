@@ -5,7 +5,7 @@ import Results from "./Results";
 
 const App = () => {
   return (
-    <BrowserRouter basename="/APQ-Roadmap">
+    <BrowserRouter>
       <Routes>
         <Route path="/" element={<Assessment />} />
         <Route path="/results" element={<Results />} />
