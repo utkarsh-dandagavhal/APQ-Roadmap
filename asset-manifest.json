@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/APQ-Roadmap/static/css/main.fb666a11.css",
+    "main.js": "/APQ-Roadmap/static/js/main.bdffdcb1.js",
+    "index.html": "/APQ-Roadmap/index.html",
+    "main.fb666a11.css.map": "/APQ-Roadmap/static/css/main.fb666a11.css.map",
+    "main.bdffdcb1.js.map": "/APQ-Roadmap/static/js/main.bdffdcb1.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.fb666a11.css",
+    "static/js/main.bdffdcb1.js"
+  ]
+}
